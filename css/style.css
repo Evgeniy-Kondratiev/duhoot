@@ -31,11 +31,48 @@ a:hover{
 ul{
 	list-style-type: none;
 }
+ul li{
+	display: inline-block;
+}
 .right{
 	float: right;
 }
 .left{
 	float: left;
+}
+.round-btn{
+	display: block;
+	background-color: #1baf5d;
+	color: #fff;
+	text-align: center;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+.sm{
+	width: 40px;
+	height: 40px;
+	font-size: 19px;
+}
+.clr-1{
+ background: #b6c0c1;
+}
+.clr-2{
+	background: #f19e1f;
+}
+.clr-3{
+	background: #88499c;
+}
+.icon{
+	display: inline-block;
+	background: url(../img/css_sprites.png) center no-repeat;
+}
+.icon-sm{
+	margin-top: 9px;
+	width: 24px;
+	height: 20px;
 }
 /*-----NAVIGATION-----*/
 .header{
@@ -137,25 +174,84 @@ ul{
 .srch-btn{
 	background: #e94e38;
 	border: none;
-	width: 30%;
+	width: 140px;
 	margin-top: 25px;
+	margin-left: 0;
 	text-transform: uppercase;
+	box-shadow: 0 2px 0 #c1412e;
 }
 .bottom-nav{
 	background-color: #fff;
 }
-.bottom-nav ul{
+.item ul{
 	margin: 25px 0;
 }
-.bottom-nav ul li{
+.item ul li{
 	font-size: 12px;
 	display: inline-block;
 	color: #96a6a7;
 	text-transform: uppercase;
 	margin-right: 19px;
 }
-.bottom-nav ul li a:hover{
+.item  ul li a:hover{
 	color: #e94e38;
+}
+.bottom-nav-btn{
+	text-align: center;
+	margin-top: 15px;
+}
+.bottom-nav-btn>select,.bottom-nav-btn>button{
+	font-family: Gotham;
+	padding: 12px 12px;
+	width: 40%;
+	color: #e94e38;
+	border-radius: 50px;
+	font-size: 12px;
+	border: 1px solid #cad2d3;
+	outline: none;
+	text-transform: uppercase;
+}
+.bottom-nav-btn>button{
+	color: #fff;
+	background: #1baf5d;
+	border-color: #1baf5d;
+	margin-left: 3%; 
+}
+.fa-map-marker{
+	margin-left: 12px;
+}
+.filter{
+	float: right;
+	margin-top: 10px;
+}
+.filter a:hover{
+	color: #fff;
+}
+.filter ul, .filter p{
+	display: inline-block;
+}
+.filter p{
+	font-size: 12px;
+	color: #96a6a7;
+	text-transform: uppercase;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.home-icon{
+	background-position: -193px -20px;
+}
+.girl-icon{
+	background-position: -16px -20px;
+}
+.hat-icon{
+	background-position: -387px -20px;
+	width: 30px;
+}
+.melody-icon{
+	background-position: -134px -20px;
+}
+.bus-icon{
+	background-position: -73px -20px;
 }
 @media screen and (max-width: 992px){
 	.menu .container{
@@ -187,5 +283,13 @@ ul{
 	}
 	.menu{
 		position: relative;
+	}
+	.item ul{
+		text-align: center;
+	}
+	.filter{
+		float: none;
+		text-align: center;
+		margin-top: 20px;
 	}
 }
