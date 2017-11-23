@@ -56,6 +56,10 @@ ul li{
 	height: 40px;
 	font-size: 19px;
 }
+.md{
+	width: 55px;
+	height: 55px;
+}
 .clr-1{
  background: #b6c0c1;
 }
@@ -182,6 +186,9 @@ ul li{
 }
 .bottom-nav{
 	background-color: #fff;
+	-webkit-box-shadow: 0 1px 0 #edebec;
+	box-shadow: 0 1px 0 #edebec;
+	z-index: 10;
 }
 .item ul{
 	margin: 25px 0;
@@ -252,6 +259,43 @@ ul li{
 }
 .bus-icon{
 	background-position: -73px -20px;
+}
+.section{
+	background-color: #f3f1f2;
+	width: 100%;
+	padding: 45px;
+}
+article{
+	width: 210px;
+}
+article .prev{
+	width: 210px;
+	position: relative;
+}
+article .round-btn{
+	position: absolute;
+	bottom: -27px;
+	left: 50%;
+	margin-left: -27px;
+	border: 3px solid #fff;
+}
+article .discr{
+	border-top: 3px solid #1baf5d;
+	background-color: #fff;
+	padding: 15px;
+	padding-top: 30px;
+	text-align: center;
+}
+article .discr>h3{
+	font-size: 14px;
+	margin: 0;
+	margin-bottom: 20px;
+	color: #566375;
+}
+article .discr>p{
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #1baf5d;
 }
 @media screen and (max-width: 992px){
 	.menu .container{
