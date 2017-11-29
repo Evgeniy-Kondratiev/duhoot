@@ -78,6 +78,11 @@ ul li{
 	width: 24px;
 	height: 20px;
 }
+.icon-md{
+	margin-top: 10px;
+	width: 31px;
+	height: 23px;
+}
 /*-----NAVIGATION-----*/
 .header{
 	background: url(../img/header-bg.png) center no-repeat;
@@ -267,6 +272,7 @@ ul li{
 }
 article{
 	width: 210px;
+	margin: 0 auto;
 }
 article .prev{
 	width: 210px;
@@ -296,6 +302,19 @@ article .discr>p{
 	font-size: 12px;
 	text-transform: uppercase;
 	color: #1baf5d;
+}
+.rating{
+	color: #f19e1f;
+	font-size: 12px;
+}
+.rating i{
+	letter-spacing: -1px;
+}
+.rating .amount{
+	color: #96a6a7;
+}
+.home-md-icon{
+	background-position: -456px -20px;
 }
 @media screen and (max-width: 992px){
 	.menu .container{
