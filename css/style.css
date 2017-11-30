@@ -81,7 +81,7 @@ ul li{
 .icon-md{
 	margin-top: 10px;
 	width: 31px;
-	height: 23px;
+	height: 27px;
 }
 /*-----NAVIGATION-----*/
 .header{
@@ -270,38 +270,41 @@ ul li{
 	width: 100%;
 	padding: 45px;
 }
-article{
+.article{
 	width: 210px;
 	margin: 0 auto;
+	height: 266px;
+	background: #fff;
 }
-article .prev{
+.article .prev{
 	width: 210px;
 	position: relative;
 }
-article .round-btn{
+.article .round-btn{
 	position: absolute;
 	bottom: -27px;
 	left: 50%;
 	margin-left: -27px;
 	border: 3px solid #fff;
 }
-article .discr{
+.article .discr{
 	border-top: 3px solid #1baf5d;
 	background-color: #fff;
-	padding: 15px;
-	padding-top: 30px;
+	padding: 30px 15px 10px;
 	text-align: center;
 }
-article .discr>h3{
+.article .discr>h3{
 	font-size: 14px;
 	margin: 0;
-	margin-bottom: 20px;
+	height: 49px;
 	color: #566375;
+	overflow: hidden;
 }
-article .discr>p{
+.article .discr p{
 	font-size: 12px;
 	text-transform: uppercase;
 	color: #1baf5d;
+	margin: 0;
 }
 .rating{
 	color: #f19e1f;
@@ -313,8 +316,17 @@ article .discr>p{
 .rating .amount{
 	color: #96a6a7;
 }
+.party.article .discr{
+	border-top: 3px solid #f19e1f;
+}
 .home-md-icon{
 	background-position: -456px -20px;
+}
+.melody-md-icon{
+	background-position: -321px -20px;
+}
+.party.article .discr p{
+	color: #f19e1f
 }
 @media screen and (max-width: 992px){
 	.menu .container{
