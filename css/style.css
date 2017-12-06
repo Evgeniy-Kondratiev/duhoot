@@ -272,7 +272,7 @@ ul li{
 }
 .article{
 	width: 210px;
-	margin: 0 auto;
+	margin: 0 auto 20px auto;
 	height: 266px;
 	background: #fff;
 	border-radius: 3px;
@@ -435,4 +435,9 @@ ul li{
 		text-align: center;
 		margin-top: 20px;
 	}
+}
+@media screen and (max-width: 570px){
+    .col-xs-6{
+        width: 100%;
+    }
 }
