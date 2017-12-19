@@ -271,9 +271,8 @@ ul li{
 	padding: 45px;
 }
 .article{
-	width: 210px;
-	margin: 0 auto 20px auto;
-	height: 266px;
+	width: 100%;
+	margin: 0 auto 40px auto;
 	background: #fff;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -288,8 +287,11 @@ ul li{
     -o-box-shadow: 0 1px 0 rgba(0,0,0, 0.1);
 }
 .article .prev{
-	width: 210px;
+	width: 100%;
 	position: relative;
+}
+.article .prev img{
+	width: 100%;
 }
 .article .round-btn{
 	position: absolute;
@@ -362,7 +364,8 @@ ul li{
 .show{
 	position: absolute;
 	top: 20px;
-	left: 32px;
+	left: 50%;
+	margin-left: -70px;
 	text-transform: uppercase;
 	border-radius: 20px;
 	border: 2px solid #fff;
@@ -395,6 +398,9 @@ ul li{
 }
 .bus-md-icon{
 	background-position: -254px -20px;
+}
+.article.larg{
+	width: 100%;
 }
 @media screen and (max-width: 992px){
 	.menu .container{
@@ -435,9 +441,4 @@ ul li{
 		text-align: center;
 		margin-top: 20px;
 	}
-}
-@media screen and (max-width: 570px){
-    .col-xs-6{
-        width: 100%;
-    }
 }
