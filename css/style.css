@@ -402,6 +402,12 @@ ul li{
 .article.larg{
 	width: 100%;
 }
+.article.larg .round-btn{
+	bottom: -27px;
+	left: 20px;
+	margin-left: 0;
+	border: 3px solid #fff;
+}
 @media screen and (max-width: 992px){
 	.menu .container{
 		width: 100%;
