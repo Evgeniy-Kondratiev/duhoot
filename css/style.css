@@ -407,6 +407,16 @@ ul li{
 	margin-left: 0;
 	border: 3px solid #fff;
 }
+.article.larg .round-btn:after{
+	content: "";
+	display: block;
+	width: 2px;
+	height: 14px;
+	background-color: #f3f1f2;
+	position: absolute;
+	bottom: -19px;
+	left: 24px;
+}
 .article.larg .rating{
 	position: absolute;
 	left: 100px;
@@ -435,9 +445,55 @@ ul li{
 	height: 100%;
 	box-shadow: inset 0px -20px 20px rgba(0,0,0, .7);
 }
-.article.larg .discr{
+/* .article.larg .discr{
 
+} */
+.article.larg .avatar{
+ 	width: 55px;
+ 	height: 55px;
+ 	border-radius: 55px;
+ 	border: 3px solid #e2dee0;
+ 	overflow: hidden;
+ 	position: relative;
+ 	float: left;
+ 	margin: 15px 0 0 5px;
 }
+.article.larg .avatar>img{
+ 	position: absolute;
+ 	left: -1px;
+ 	top: 0;
+}
+.article.larg .comment-box{
+ 	text-align: left;
+ 	overflow: hidden;
+ 	color: #566375;
+}
+.article.larg .comment i{
+	font-size: 18px;
+	color: #f19e1f;
+}
+.article.larg .comment{
+	width: 85%;
+	float: right;
+}
+.article.larg .login-name{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: inherit;
+	margin-top: 5px;
+}
+.article.larg .comment p{
+	text-transform: initial;
+	font-size: 14px;
+	font-family: GothamBook;
+	color: inherit;
+}
+.article.larg .comment p>a{
+	font-weight: bold;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #566375;
+}
+
 @media screen and (max-width: 992px){
 	.menu .container{
 		width: 100%;
