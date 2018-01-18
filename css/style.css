@@ -61,7 +61,7 @@ ul li{
 	height: 55px;
 }
 .clr-1{
- background: #b6c0c1;
+ background: #b6c0c1; /* asdas */
 }
 .clr-2{
 	background: #f19e1f;
@@ -456,12 +456,16 @@ ul li{
  	overflow: hidden;
  	position: relative;
  	float: left;
- 	margin: 15px 0 0 5px;
+ 	margin: 29px 0 0 5px;
 }
 .article.larg .avatar>img{
  	position: absolute;
  	left: -1px;
  	top: 0;
+}
+.article.larg .discr{
+	height: 155px;
+	padding-top: 15px;
 }
 .article.larg .comment-box{
  	text-align: left;
