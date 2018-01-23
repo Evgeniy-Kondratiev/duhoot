@@ -497,53 +497,14 @@ ul li{
 	padding-bottom: 1px;
 	border-bottom: 1px solid #566375;
 }
-
-@media screen and (max-width: 992px){
-	.menu .container{
-		width: 100%;
-		padding: 0 30px;
-	}
-	.navbar-header{
-		width: 100%;
-	}
-	.active{
-		position: absolute;
-		display: block!important;
-		float: none;
-		top: 100%;
-		left: 0;
-		background: #fff;
-		width: 100%;
-		z-index: 10;
-	}
-	.active .navbar{
-		float: none;
-	}
-	.active li{
-		float: none;
-		display: block;
-	}
-	.active .navbar-form{
-		float: none;
-	}
-	.menu{
-		position: relative;
-	}
-	.item ul{
-		text-align: center;
-	}
-	.filter{
-		float: none;
-		text-align: center;
-		margin-top: 20px;
-	}
-    .article.larg .avatar{
-        margin: 0 auto;
-        float: none;
-    }
-    .article.larg .comment{
-        float: none;
-        width: 100%;
-        text-align: center;
-    }
+.load-more{
+	font-size: 18px;
+	text-align: center;
+	color: #566375;
+}
+.load-more>a{
+	border-bottom: 1px solid #cccdd3;
+}
+.fa-long-arrow-right{
+	margin-left: 7px;
 }

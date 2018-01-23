@@ -8,9 +8,10 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Main  -->
     <link href="fonts/FontAwesome/css/font-awesome.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
+    <link href="css/media.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,8 +20,8 @@
     <![endif]-->
   </head>
   <body>
-    <header class="header">
-        <nav class="menu">
+    <header class="header"><!-- start of header block  --> 
+        <nav class="menu"><!-- start of main menu block  --> 
             <div class="container">
                 <div class="row">
                     <div class="navbar-header left">
@@ -42,10 +43,10 @@
                             <button type="submit" class="btn login"><i class="fa fa-user" aria-hidden="true"></i>login</button>
                         </form>
                     </div>
-                <div> 
+                </div> 
             </div>
-        </nav>
-        <div class="main-search">   
+        </nav><!-- end of main menu block  --> 
+        <div class="main-search"><!-- start of main-search block  -->  
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3">
@@ -71,8 +72,8 @@
                     </div>
                 </div>
             </div> 
-        </div>
-        <div class="bottom-nav">
+        </div> <!-- end of main-search block  -->  
+        <div class="bottom-nav"><!-- start of header bottom navigation -->  
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
@@ -98,22 +99,22 @@
                         <div class="filter">
                             <p>filter:</p>
                             <ul>
-                                <li ><a class="sm round-btn" href=""><span class="icon icon-sm home-icon"></span></a></li>
-                                <li ><a class="sm round-btn clr-1" href=""><span class="icon icon-sm girl-icon"></span></i></a></li>
-                                <li ><a class="sm round-btn clr-1" href=""><span class="icon icon-sm hat-icon"></span></a></li>
-                                <li ><a class="sm round-btn clr-2" href=""><span class="icon icon-sm melody-icon"></span></a></li>
-                                <li ><a class="sm round-btn clr-3" href=""><span class="icon icon-sm bus-icon"> </span></a></li>
+                                <li><a class="sm round-btn" href=""><span class="icon icon-sm home-icon"></span></a></li>
+                                <li><a class="sm round-btn clr-1" href=""><span class="icon icon-sm girl-icon"></span></a></li>
+                                <li><a class="sm round-btn clr-1" href=""><span class="icon icon-sm hat-icon"></span></a></li>
+                                <li><a class="sm round-btn clr-2" href=""><span class="icon icon-sm melody-icon"></span></a></li>
+                                <li><a class="sm round-btn clr-3" href=""><span class="icon icon-sm bus-icon"> </span></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <section class="section">
-        <div class="container">
+        </div><!-- end of header bottom navigation --> 
+    </header><!-- end of header block  --> 
+    <section class="section"><!-- start of section block  -->  
+        <div class="container"><!-- start of section container block  -->  
             <div class="row">
-                <div class="first-line">
+                <div class="line"><!-- start of first line block  -->  
                     <div class="col-md-3 col-sm-6 col-xs-6">
                         <article class="article">
                             <div class="prev">
@@ -205,8 +206,8 @@
                             </div>
                         </article>
                     </div>
-                </div>
-                <div class="second-line">
+                </div><!-- end of first line block  -->  
+                <div class="line"><!-- start of second line block  -->  
                     <div class="col-md-6">
                         <article class="article larg">
                             <div class="prev">
@@ -281,8 +282,8 @@
                             </div>
                         </article>
                     </div>
-                </div>
-                <div class="first-line">
+                </div><!-- end of second line block  -->  
+                <div class="line"><!-- start of third line block  -->  
                     <div class="col-md-3 col-sm-6 col-xs-6">
                         <article class="article">
                             <div class="prev">
@@ -374,8 +375,8 @@
                             </div>
                         </article>
                     </div>
-                </div>
-                <div class="first-line">
+                </div><!-- end of third line block  --> 
+                <div class="line"><!-- start of fourth line block  --> 
                     <div class="col-md-6">
                         <article class="article larg">
                             <div class="prev">
@@ -413,7 +414,6 @@
                             </div>
                         </article>
                     </div>
-                </div>
                     <div class="col-md-3 col-sm-6 col-xs-6">
                         <article class="article">
                             <div class="prev">
@@ -455,10 +455,13 @@
                             </div>
                         </article>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                </div><!-- end of fourth line block  --> 
+            </div><!-- start of row block  --> 
+            <div class="col-md-2 col-md-offset-5"><!-- start of loud-more button block  --> 
+                <p class="load-more"><a href="">Load more</a><i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+            </div><!-- end of loud-more button block  --> 
+        </div><!-- end of section container block  -->  
+    </section><!-- end of section block  -->  
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
