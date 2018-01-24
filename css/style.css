@@ -503,8 +503,21 @@ ul li{
 	color: #566375;
 }
 .load-more>a{
-	border-bottom: 1px solid #cccdd3;
+	border-bottom-width: 1px;
+	border-bottom-style:  solid;
+	border-bottom-color: #cccdd3;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+}
+.load-more>a:hover{
+	border-bottom-color: #23527c;
 }
 .fa-long-arrow-right{
 	margin-left: 7px;
 }
+.load-more>a:hover+.fa-long-arrow-right{
+	color: #23527c;
+}
+
