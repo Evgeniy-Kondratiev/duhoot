@@ -49,4 +49,7 @@
     .article.larg .discr{
     	height: auto;
     }
+    .border-top{
+    	border-top: 1px solid #e2dee0;
+    }
 }

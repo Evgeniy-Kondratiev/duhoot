@@ -60,6 +60,11 @@ ul li{
 	width: 55px;
 	height: 55px;
 }
+.lg{
+	width: 104px;
+	height: 104px;
+	margin: 0 auto;
+}
 .clr-1{
  background: #b6c0c1; /* asdas */
 }
@@ -82,6 +87,10 @@ ul li{
 	margin-top: 10px;
 	width: 31px;
 	height: 27px;
+}
+.icon-lg{
+	width: 50px;
+	height: 40px;
 }
 /*-----NAVIGATION-----*/
 .header{
@@ -268,7 +277,7 @@ ul li{
 .section{
 	background-color: #f3f1f2;
 	width: 100%;
-	padding: 45px;
+	padding-top: 45px;
 }
 .article{
 	width: 100%;
@@ -520,4 +529,113 @@ ul li{
 .load-more>a:hover+.fa-long-arrow-right{
 	color: #23527c;
 }
-
+.offers{
+	padding-top: 50px;
+    border-top: 1px solid #e2dee0;
+    margin-top: -18px;
+    text-align: center;
+}
+.offers h1{
+	font-size: 22px;
+	color: #566375;
+}
+.offers h3{
+	font-size: 16px;
+	color: #96a6a7;
+}
+.offers .round-btn{
+	background-color: #f3f1f2;
+	border: 2px solid #9dacad;
+	position: relative;
+	box-shadow: 5px 0 0 #f3f1f2, -5px 0 0 #f3f1f2;
+	-webkit-box-shadow: 5px 0 0 #f3f1f2, -5px 0 0 #f3f1f2;
+	-moz-box-shadow: 5px 0 0 #f3f1f2, -5px 0 0 #f3f1f2;
+	-ms-box-shadow: 5px 0 0 #f3f1f2, -5px 0 0 #f3f1f2;
+	-o-box-shadow: 5px 0 0 #f3f1f2, -5px 0 0 #f3f1f2;
+	
+}
+.offers li{
+	margin-right: 60px;
+}
+.offers .icon{
+	display: inline-block;
+	background-image: url(../img/css_sprites_old.png);
+	margin-top: 26px;
+}
+.offers ul{
+	margin-top: 68px;
+	margin-bottom: 34px;
+	position: relative;
+}
+.offers ul:before{
+	content: "";
+	display: block;
+	width: 65%;
+    height: 2px;
+    background: #e2dee0;
+    position: absolute;
+    top: 55px;
+    left: 12%;
+}
+.offers .round-btn:hover{
+	border-color: #1baf5d;
+}
+.home-lg{
+	background-position: -1120px -20px;
+}
+.girl-lg{
+	background-position: -520px -20px;
+}
+.hat-lg{
+	background-position: -1030px -14px;
+}
+.melody-lg{
+	background-position: -770px -20px;
+	height: 47px;
+}
+.bus-lg{
+	background-position: -601px -20px;
+	height: 47px;
+}
+.offers .round-btn:hover .home-lg{
+	background-position: -1300px -20px;
+}
+.offers .round-btn:hover .girl-lg{
+	background-position: -940px -20px;
+}
+.offers .round-btn:hover .hat-lg{
+	background-position: -1210px -14px;
+}
+.offers .round-btn:hover .melody-lg{
+	background-position: -855px -20px;
+}
+.offers .round-btn:hover .bus-lg{
+	background-position: -684px -20px;
+}
+.reality{
+	width: 100%;
+}
+.reality h3{
+	font-size: 24px;
+	color: #1baf5d;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.reality .content{
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.reality .round-btn{
+	height: 62px;
+	width: 62px;
+	line-height: 62px;
+	font-size: 30px;
+	float: left;
+}
+.reality p{
+	color: #566375;
+	font-family: GothamBook;
+	width: 70%;
+	float: right;
+	margin-right: 45px;
+}
